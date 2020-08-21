@@ -1,0 +1,43 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1/test
+      port: 27017
+#  servlet:
+#    multipart:
+#      max-file-size: 10MB
+#      max-request-size: 100MB
+#  application:
+#    name: mongodbandlog4j2
+server:
+  port: 8090
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+#feign:
+#  client:
+#    default-config:
+#      remote-service:           #服务名，填写default为所有服务
+#        connectTimeout: 10000
+#        readTimeout: 12000
+#ribbon:
+#  ReadTimeout: 60000
+#  ConnectTimeout: 60000
+
+#logging:
+#  pattern:
+#    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %clr(%5p) %clr([%15.15t]){cyan} %clr(%X{__traceId}){magenta} %clr(%-40.40logger{39}){blue} %clr(:) %m%n"
+#    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [%t] %X{__traceId} %-40.40logger{39} : %m%n"
+#  level:
+#    com.pledge.mainapi.mapper: debug
+#logging:
+#  file: log/config.log
+#  pattern:
+#    console: "%d %-5level %logger : %msg%n"
+#    file: "%d %-5level [%thread] %logger : %msg%n"
+#  level:
+#    org.springframework.web: DEBUG
+#    com.howtodoinjava: DEBUG
+#    org.hibernate: DEBUG
+
